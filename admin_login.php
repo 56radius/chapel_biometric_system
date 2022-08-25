@@ -28,7 +28,7 @@ $stmt=$mysqli->prepare("SELECT email,password,id FROM admin_reg WHERE email=? an
             $mysqli->query($log);
               if($log)
               {
-                header("location:dashboard.php");
+                header("location:admin_dashboard.php");
               }
           }
           else

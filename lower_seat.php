@@ -1,8 +1,219 @@
+<?php
+  session_start();
+  include('includes/config.php');
+
+if(isset($_POST['submit']))
+{
+  $group_no = $_POST['group_no'];
+  $level = $_POST['level'];
+      //switch case statement
+          switch($group_no) {
+            //group 1
+             case "1": 
+                  if($level == 200) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 0){
+                            echo"<script>alert('You are in 200 level, Group: 1 Seat: $seat');</script>";
+                        }
+                  }
+                  elseif($level == 400) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 1){
+                          echo"<script>alert('You are in 400 level, Group: 1 Seat: $seat');</script>";
+                        }
+                  }
+              break;
+
+              //group 2
+              case "2": 
+                  if($level == 200) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 0){
+                          echo"<script>alert('You are in 400 level, Group: 2 Seat: $seat');</script>";
+                        }
+                  }
+                  elseif($level == 400) {
+                    $seat = rand(1,50);
+                        if($seat % 2 == 1){
+                          echo"<script>alert('You are in Group: 2 Seat: $seat');</script>";
+                         }
+                  }
+              break;
+
+              //group 3
+              case "3": 
+                  if($level == 200) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 0){
+                          echo"<script>alert('You are in Group: 3 Seat: $seat');</script>";
+                        }
+                  } 
+                  elseif($level == 400) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 1){
+                          echo"<script>alert('You are in Group: 3 Seat: $seat');</script>";
+                        }
+                  }
+              break;
+
+              //group 4
+              case "4": 
+                  if($level == 200) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 0){
+                        echo"<script>alert('You are in Group: 4 Seat: $seat');</script>";
+                      }
+                  } 
+                  elseif($level == 400) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 1){
+                        echo"<script>alert('You are in Group: 4 Seat: $seat');</script>";
+                      }
+                  }
+              break;
+
+              //group 5
+              case "5": 
+                  if($level == 200) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 0){
+                        echo"<script>alert('You are in Group: 5 Seat: $seat');</script>";
+                      }
+                  } 
+                  elseif($level == 400) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 1){
+                        echo"<script>alert('You are in Group: 5 Seat: $seat');</script>";
+                      }
+                  }
+              break;
+
+              //group 6
+              case "6": 
+                if($level == 200) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in 200 level, Group: 6 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 400) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in 400 level, Group: 6 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 7
+              case "7": 
+                if($level == 200) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                     echo"<script>alert('You are in Group: 7 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 400) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 7 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 8
+              case "8": 
+                if($level == 200) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 8 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 400) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 8 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 9
+              case "9": 
+                if($level == 200) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 9 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 400) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 9 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 10
+              case "10": 
+                if($level == 200) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 10 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 400) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 10 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 11
+              case "11": 
+                if($level == 200) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 11 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 400) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 11 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 12
+              case "12": 
+                if($level == 200) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 12 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 400) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 12 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              default:
+                  echo"<script>alert('Invalid');</script>";
+              break;
+        }
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="This is for 200 level and 400 level">
+    <meta name="author" content="gbenga">
+    <meta name="keywords" content="seat, number, 200">
     <title> 200 or 400 level seat number </title>
     <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome Cdn Link -->
@@ -247,7 +458,85 @@
         </ul>
       </nav>
 
+      <div class="wrapper">
+      <div class="title"> 200 level or 400 level seat number </div>  
       
+      <form method="post" action="">
+        <div class="form">
+         <div class="inputfield">
+          <label> Full Name </label>
+          <input type="text" name="first_name" id="first_name" class="input" required="required" />
+        </div>
+      
+        <div class="inputfield">
+          <label> Matric Number </label>
+          <input type="text" name="last_name" id="last_name" class="input" required="required" />
+        </div>
+        <div class="inputfield">
+          <label> Hostel Name </label>
+          <input type="text" name="other_names" id="other_names" class="input" required="required" />
+        </div>
+        <div class="inputfield">
+          <label> Room Number </label>
+          <input type="text" name="other_names" id="other_names" class="input" required="required" />
+        </div>
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select name="gender" id="gender">
+              <option value=""> None </option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
+         <div class="inputfield">
+          <label> Level </label>
+          <div class="custom_select">
+            <select name="level" id="level">
+              <option value=""> None </option>
+              <option value="200"> 200 </option>
+              <option value="400"> 400 </option>
+            </select>
+          </div>
+        </div>
+        <div class="inputfield">
+          <label> Group Number </label>
+          <div class="custom_select">
+            <select name="group_no" id="group_no">
+              <option value=""> None </option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+        </div>
+        <div class="inputfield">
+          <label>Session</label>
+          <div class="custom_select">
+            <select name="session" id="session">
+              <option value=""> none </option>
+              <option value="2021/2022">2021/2022</option>
+              <option value="2022/2023">2022/2023</option>
+            </select>
+          </div>
+        </div>
+        <div class="inputfield">
+          <input type="submit" name="submit" id="submit" value="Get Seat no" class="btn" />
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
       </section>
       </div>
     </div>

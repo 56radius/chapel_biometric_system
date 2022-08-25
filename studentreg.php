@@ -20,7 +20,10 @@ $stmt = $mysqli->prepare($query);
 $rc=$stmt->bind_param('sssssssssss',$first_name,$last_name,$other_names,$matric_no,$pass_word,$gender,$email,$address,$level,$semester,$session);
 $stmt->execute();
 echo"<script>alert('Student Succssfully register');</script>";
+header("location:index.php");
 }
+
+
 ?>
 
 <!DOCTYPE html>

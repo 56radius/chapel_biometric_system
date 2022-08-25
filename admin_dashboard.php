@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Dashboard</title>
+    <title> Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome Cdn Link -->
     <link
@@ -48,6 +48,12 @@
             <a href="/reg.html">
               <i class="fas fa-user"></i>
               <span class="nav-item">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="manage_students.php">
+              <i class="fas fa-user"></i>
+              <span class="nav-item"> Manage Students </span>
             </a>
           </li>
 

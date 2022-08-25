@@ -1,3 +1,10 @@
+<?php
+  session_start();
+    include('includes/config.php');
+    include('includes/checklogin.php');
+  check_login();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -76,25 +83,6 @@
             <a href="seat.php"> 
             <button>Click Here!!</button></a>
           </div>
-          <div class="card">
-            <img src="./images/josh.jpg" />
-            <h4>Oluwatoyin Joshua</h4>
-            <p>400 lv</p>
-            <div class="per">
-              <table>
-                <tr>
-                  <td><span>82%</span></td>
-                  <td><span>18%</span></td>
-                </tr>
-                <tr>
-                  <td>present</td>
-                  <td>absent</td>
-                </tr>
-              </table>
-            </div>
-            <button>Profile</button>
-          </div>
-         
             </table>
           </div>
         </section>

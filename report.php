@@ -37,7 +37,7 @@
               <td>07/1/22</td>
               <td>87%</td>
               <td>13%</td>
-              <td><a href="./gbenga/week1 report.pdf" download><button class="fas fa-download"></button></a></td>
+              <td><a href="week1 report.pdf" download><button class="fas fa-download"></button></a></td>
             </tr>
             <tr class="active">
               <td>2</td>
@@ -46,7 +46,7 @@
               <td>07/8/22</td>
               <td>88%</td>
               <td>12%</td>
-              <td><button class="fas fa-download"></button></td>
+              <td><a href="week2 report.pdf" download><button class="fas fa-download"></button></a></td>
             </tr>
             <tr>
               <td>3</td>
@@ -55,7 +55,7 @@
               <td>07/8/22</td>
               <td>90%</td>
               <td>10%</td>
-              <td><button class="fas fa-download"></button></td>
+              <td><a href="week3 report.pdf" download><button class="fas fa-download"></button></a></td>
             </tr>
             <tr>
               <td>4</td>
@@ -64,7 +64,7 @@
               <td>07/8/22</td>
               <td>88%</td>
               <td>12%</td>
-              <td><button class="fas fa-download"></button></td>
+              <td><a href="week4 report.pdf" download><button class="fas fa-download"></button></a></td>
             </tr>
 
             <tr>
@@ -74,7 +74,7 @@
               <td>07/8/22</td>
               <td>84%</td>
               <td>16%</td>
-              <td><button class="fas fa-download"></button></td>
+              <td><a href="week5 report.pdf" download><button class="fas fa-download"></button></a></td>
             </tr>
           </tbody>
         </table>

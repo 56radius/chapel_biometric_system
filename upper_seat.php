@@ -6,48 +6,206 @@ if(isset($_POST['submit']))
 {
   $group_no = $_POST['group_no'];
   $level = $_POST['level'];
+      //switch case statement
           switch($group_no) {
-              case "1":
+            //group 1
+             case "1": 
+                  if($level == 100) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 0){
+                            echo"<script>alert('You are in Group: 1 Seat: $seat');</script>";
+                        }
+                  }
+                  elseif($level == 300) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 1){
+                          echo"<script>alert('You are in Group: 1 Seat: $seat');</script>";
+                        }
+                  }
+              break;
+
+              //group 2
+              case "2": 
+                  if($level == 100) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 0){
+                          echo"<script>alert('You are in Group: 2 Seat: $seat');</script>";
+                        }
+                  }
+                  elseif($level == 300) {
+                    $seat = rand(1,50);
+                        if($seat % 2 == 1){
+                          echo"<script>alert('You are in Group: 2 Seat: $seat');</script>";
+                         }
+                  }
+              break;
+
+              //group 3
+              case "3": 
+                  if($level == 100) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 0){
+                          echo"<script>alert('You are in Group: 3 Seat: $seat');</script>";
+                        }
+                  } 
+                  elseif($level == 300) {
+                      $seat = rand(1,50);
+                        if($seat % 2 == 1){
+                          echo"<script>alert('You are in Group: 3 Seat: $seat');</script>";
+                        }
+                  }
+              break;
+
+              //group 4
+              case "4": 
+                  if($level == 100) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 0){
+                        echo"<script>alert('You are in Group: 4 Seat: $seat');</script>";
+                      }
+                  } 
+                  elseif($level == 300) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 1){
+                        echo"<script>alert('You are in Group: 4 Seat: $seat');</script>";
+                      }
+                  }
+              break;
+
+              //group 5
+              case "5": 
+                  if($level == 100) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 0){
+                        echo"<script>alert('You are in Group: 5 Seat: $seat');</script>";
+                      }
+                  } 
+                  elseif($level == 300) {
+                    $seat = rand(1,50);
+                      if($seat % 2 == 1){
+                        echo"<script>alert('You are in Group: 5 Seat: $seat');</script>";
+                      }
+                  }
+              break;
+
+              //group 6
+              case "6": 
                 if($level == 100) {
-                  $n = rand(1,50);
-                    $seat = (2* $n);
-                     echo $seat;
-                }
-                else ($level == 300) {
-                 $n = rand(1,50);
-                   $seat = ((2*n) -1);
-                     echo $seat;
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 6 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 300) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 6 Seat: $seat');</script>";
+                    }
                 }
               break;
-              
-              case "2":
+
+              //group 7
+              case "7": 
                 if($level == 100) {
-                  $n = rand(1,50);
-                    $seat = (2* $n);
-                     echo $seat;
-                }
-                else ($level == 300) {
-                 $n = rand(1,50);
-                   $seat = ((2*n) -1);
-                     echo $seat;
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                     echo"<script>alert('You are in Group: 7 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 300) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 7 Seat: $seat');</script>";
+                    }
                 }
               break;
-          }
+
+              //group 8
+              case "8": 
+                if($level == 100) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 8 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 300) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 8 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 9
+              case "9": 
+                if($level == 100) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 9 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 300) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 9 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 10
+              case "10": 
+                if($level == 100) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 10 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 300) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 10 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 11
+              case "11": 
+                if($level == 100) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 11 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 300) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 11 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              //group 12
+              case "12": 
+                if($level == 100) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 0){
+                      echo"<script>alert('You are in Group: 12 Seat: $seat');</script>";
+                    }
+                } 
+                elseif($level == 300) {
+                  $seat = rand(1,50);
+                    if($seat % 2 == 1){
+                      echo"<script>alert('You are in Group: 12 Seat: $seat');</script>";
+                    }
+                }
+              break;
+
+              default:
+                  echo"<script>alert('Invalid');</script>";
+              break;
+        }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+?>
 
 
 <!DOCTYPE html>
